@@ -2,7 +2,7 @@
 var company = new Object();
 company.name = "Facebook";
 company.ceo = new Object();
-company.ceo.firstName = "Mark";
+company.ceo.firstName = "Yamini Malik";
 company.ceo.favColor = "blue";
 
 console.log(company);
@@ -20,7 +20,7 @@ console.log("Stock price is: " +
 var facebook = {
   name: "Facebook",
   ceo: {
-    firstName: "Mark",
+    firstName: "Yamini Malik",
     favColor: "blue"
   },
   "stock of company": 110
