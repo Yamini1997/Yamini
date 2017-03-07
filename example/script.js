@@ -14,7 +14,7 @@ function sayHello () {
       document
         .querySelector("#title")
         .textContent;
-    if (cnt == 0) 
+    if (cnt==0) 
     {
     title +=" & Lovin' it!";
     cnt++;
@@ -24,7 +24,7 @@ function sayHello () {
         .textContent = title;
   }
     else{
-      cnt = 0;
+      cnt=0;
       var title = "A024"
           document
             .querySelector("h1")
