@@ -1,16 +1,9 @@
-// DOM manipulation
-// console.log(document.getElementById("title"));
-// console.log(document instanceof HTMLDocument);
-
+var cnt = 0;
 function sayHello () {
   var name =
    document.getElementById("name").value;
    var message = "<h2>Hello " + name + "!</h2>";
-
-  // document
-  //   .getElementById("content")
-  //   .textContent = message;
-
+  
   document
     .getElementById("content")
     .innerHTML = message;
@@ -20,9 +13,18 @@ function sayHello () {
       document
         .querySelector("#title")
         .textContent;
+    if (cnt === 0) {
     title += " & Lovin' it!";
-    document
+    cnt++;
+      document
         .querySelector("h1")
         .textContent = title;
   }
+    else{
+      cnt = 0;
+      var title =
+          document
+            .querySelector("h1")
+            .textContent = title;
+    }
 }
