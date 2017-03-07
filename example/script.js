@@ -13,7 +13,7 @@ function sayHello () {
       document
         .querySelector("#title")
         .textContent;
-    if (cnt === 0) {
+    if (cnt == 0) {
     title += " & Lovin' it!";
     cnt++;
       document
