@@ -15,7 +15,7 @@ function sayHello () {
     .getElementById("content")
     .innerHTML = message;
 
-  if (name === "student") {
+  if (name == "student") {
     var title = 
       document
         .querySelector("#title")
