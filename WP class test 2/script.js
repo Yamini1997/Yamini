@@ -1,28 +1,20 @@
-// DOM manipulation
-// console.log(document.getElementById("title"));
-// console.log(document instanceof HTMLDocument);
+<!DOCTYPE html>
+<html>
+<body>
 
-function sayHello () {
-  var name =
-   document.getElementById("name").value;
-   var message = "<h2>Hello " + name + "!</h2>";
+<p id="demo"></p>
 
-  // document
-  //   .getElementById("content")
-  //   .textContent = message;
+<script>
+var person = new Object();
+person.firstName = "Ed";
+person.lastName = "Sheeran";
+person.course1 = "Math";
+person.course2 = "English";
+person.Marks1 = "65";
+person.Marks2 = "80";
 
-  document
-    .getElementById("content")
-    .innerHTML = message;
-
-  if (name === "student") {
-    var title = 
-      document
-        .querySelector("#title")
-        .textContent;
-    title += " & Lovin' it!";
-    document
-        .querySelector("h1")
-        .textContent = title;
-  }
-}
+document.getElementById("demo").innerHTML =
+" Name: " + person.firstName + "  " + person.lastName + " Course: " + person.course1 + " Marks: " + person.Marks1  + " Course: " + person.course2 + " Marks: " + person.Marks2;
+</script>
+</body>
+</html>
