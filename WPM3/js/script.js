@@ -27,6 +27,6 @@ function loadData()
 		output.innerHTML = "<span style='color:red;'>NOT FOUND</span>";
 		}
 	}
-		xhttp.open("GET","data/wp.json",true);
+		xhttp.open("GET","wp.json",true);
 		xhttp.send(); 
 }
