@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",
         
         // Call server to get the name
         $ajaxUtils
-          .sendGetRequest("WPM3/wp.json", 
+          .sendGetRequest("WPM3/data/wp.json", 
             function (res) {
               var message = 
                 res.firstName + " " + res.lastName
