@@ -20,7 +20,7 @@ function loadData(){
 			}
 		}
 		if (flag == 0) {
-			output.innerHTML = "<span style='color:red;'>Number could not be found</span>";
+			output.innerHTML = "NOT FOUND</span>";
 		}
 	}
 	xhttp.open("GET","data.json",true);
