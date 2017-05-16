@@ -1,42 +1,42 @@
 [
 {
   "firstName":"Anna
-  "number":"1",
+  "number":1,
 },
 {
   "firstName":"Bella"
-  "number":"2",
+  "number":2,
 },
 {
   "firstName":"Catherine"
-   "number":"3",
+   "number":3,
 },
 {
   "firstName":"Den"
-   "number":"4",
+   "number":4,
 },
 {
   "firstName":"Ethan"
-   "number":"5",
+   "number":5,
 },
 {
   "firstName":"Franklin"
-   "number":"6",
+   "number":6,
 },
 {
   "firstName":"Gayle"
-   "number":"7",
+   "number":7,
 },
 {
   "firstName":"Hank"
-   "number":"8",
+   "number":8,
 },
 {
   "firstName":"Issac"
-   "number":"9",
+   "number":9,
 },
 {
   "firstName":"Justin"
-   "number":"10",
+   "number":10,
 }
 ]
