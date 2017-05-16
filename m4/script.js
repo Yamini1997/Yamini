@@ -9,7 +9,7 @@ function loadData()
 };
 	function responseHandler(jsonObj){
 		var i = 0;
-		var number = document.getElementById('number').value;
+		var number = document.getElementById('numberBox').value;
 		var output = document.getElementById('output');
 		var flag = 0;
 // console.log(number);
